@@ -21,8 +21,13 @@
     <meta property="og:description" content="Professional sports injury treatment, rehabilitation and athlete recovery services.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.spdsportstherapy.co.za">
-    <meta property="og:image" content="https://www.spdsportstherapy.co.za/images/logo.png">
+    <meta property="og:image" content="https://www.spdsportstherapy.co.za/images/logo.png">    <meta property="og:image:alt" content="SPD Sports Therapy logo">
 
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SPD Sports Therapy | Sports Massage & Injury Treatment in Cape Town">
+    <meta name="twitter:description" content="Professional sports injury treatment, rehabilitation and athlete recovery services.">
+    <meta name="twitter:image" content="https://www.spdsportstherapy.co.za/images/logo.png">
     <!-- Favicon -->
     <link rel="shortcut icon" href="fav.ico" type="image/x-icon">
 
@@ -32,16 +37,68 @@
     <!-- Local Business Schema -->
 <script type="application/ld+json">
 {
- "@context": "https://schema.org",
- "@type": "HealthAndBeautyBusiness",
- "name": "SPD Sports Therapy",
- "url": "https://www.spdsportstherapy.co.za",
- "description": "Professional sports injury treatment, rehabilitation and recovery therapy services.",
- "areaServed": {
-   "@type": "City",
-   "name": "Cape Town"
- },
- "telephone": "+27 73 753 1057"
+  "@context": "https://schema.org",
+  "@type": "HealthAndBeautyBusiness",
+  "name": "SPD Sports Therapy",
+  "url": "https://www.spdsportstherapy.co.za",
+  "description": "Professional sports injury treatment, rehabilitation and recovery therapy services.",
+  "telephone": "+27 73 753 1057",
+  "email": "info.spdsportstherapy@gmail.com",
+  "areaServed": {
+    "@type": "City",
+    "name": "Cape Town",
+    "address": "Cape Town, South Africa"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Customer Service",
+    "telephone": "+27 73 753 1057",
+    "email": "info.spdsportstherapy@gmail.com"
+  },
+  "sameAs": [
+    "https://www.facebook.com/profile.php?id=61586366068326"
+  ]
+}
+</script>
+
+<!-- Service Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Sports Therapy",
+  "description": "Professional sports massage, deep tissue treatment and recovery therapy",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "SPD Sports Therapy"
+  },
+  "areaServed": "Cape Town, South Africa"
+}
+</script>
+
+<!-- Price Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "PriceSpecification",
+  "priceCurrency": "ZAR",
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "45-minute session",
+      "price": "850"
+    },
+    {
+      "@type": "Offer",
+      "name": "60-minute session",
+      "price": "950"
+    },
+    {
+      "@type": "Offer",
+      "name": "90-minute session",
+      "price": "1250"
+    }
+  ]
 }
 </script>
 
@@ -85,7 +142,7 @@ individuals in Cape Town.
 </p>
 
                     <!-- Hero Section -->
-                    <section class="hero-section">
+                    <section class="hero-section" style="background-image: url('../images/hero.jpg');">
                         <div class="hero-content">
                             <h2>Sports Massage & Muscle Therapy in Cape Town</h2>
                             <p>Deep Tissue · Flush Work · Recovery . Across Cape Town</p>
